@@ -8,6 +8,8 @@
 
 # Load libraries (make sure they are installed first!)
 
+if (!('tidyverse' %in% row.names(installed.packages()))) install.packages('tidyverse', dependencies = TRUE)
+
 library(tidyverse)
 
 
